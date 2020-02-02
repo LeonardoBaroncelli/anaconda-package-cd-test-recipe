@@ -1,0 +1,22 @@
+
+package:
+  name: pytestpackage
+  version: "1.0.1"
+
+source:
+  git_url: https://github.com/LeonardoBaroncelli/anaconda-package-cd-test
+  git_rev: "1.0.1"
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - python 3.7
+  run:
+    - python 3.7
+    - pyyaml
+
+#test:
+#  imports:
+#    - ppppppytestpackage
